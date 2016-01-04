@@ -101,9 +101,8 @@ mklink /J "D:\htdocs\_product_oos_company_profile\protected\modules\banner\contr
 --
 mklink /J "D:\htdocs\_product_oos_company_profile\protected\modules\banner\views\o" "D:\htdocs\_project_ommu_module_banner\modules\banner\views\o"
 
-
-
-
+///album\\\
+mklink /J "D:\htdocs\_product_oos_company_profile\externals\album" "D:\htdocs\_project_ommu_module_albums\externals\album"
 mklink /H "D:\htdocs\_product_oos_company_profile\protected\modules\album\album.yaml" "D:\htdocs\_project_ommu_module_albums\modules\album\album.yaml"
 mklink /H "D:\htdocs\_product_oos_company_profile\protected\modules\album\LICENSE" "D:\htdocs\_project_ommu_module_albums\modules\album\LICENSE"
 mklink /J "D:\htdocs\_product_oos_company_profile\protected\modules\album\assets" "D:\htdocs\_project_ommu_module_albums\modules\album\assets"
@@ -111,11 +110,10 @@ mklink /J "D:\htdocs\_product_oos_company_profile\protected\modules\album\compon
 mklink /J "D:\htdocs\_product_oos_company_profile\protected\modules\album\models" "D:\htdocs\_project_ommu_module_albums\modules\album\models"
 --
 mklink /J "D:\htdocs\_product_oos_company_profile\protected\modules\album\controllers\o" "D:\htdocs\_project_ommu_module_albums\modules\album\controllers\o"
-mklink /H "D:\htdocs\_product_oos_company_profile\protected\modules\album\controllers\LikesController.php" "D:\htdocs\_project_ommu_module_albums\modules\album\controllers\LikesController.php"
-mklink /H "D:\htdocs\_product_oos_company_profile\protected\modules\album\controllers\PhotoController.php" "D:\htdocs\_project_ommu_module_albums\modules\album\controllers\PhotoController.php"
 --
 mklink /J "D:\htdocs\_product_oos_company_profile\protected\modules\album\views\o" "D:\htdocs\_project_ommu_module_albums\modules\album\views\o"
-mklink /J "D:\htdocs\_product_oos_company_profile\protected\modules\album\views\photo" "D:\htdocs\_project_ommu_module_albums\modules\album\views\photo"
+
+
 ========================
 mklink /H "D:\htdocs\_product_oos_company_profile\protected\modules\article\article.yaml" "D:\htdocs\_project_ommu_module_articles\modules\article\article.yaml"
 mklink /H "D:\htdocs\_product_oos_company_profile\protected\modules\article\LICENSE" "D:\htdocs\_project_ommu_module_articles\modules\article\LICENSE"
